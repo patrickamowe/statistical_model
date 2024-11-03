@@ -21,4 +21,4 @@ def pearson_correlation(x, y, n):
         summation_y_square += e ** 2
         summation_xy += i*e
 
-    return [f"x: {summation_x}", f"x_squaress: {summation_x_square}", f"y: {summation_y}", f"y_square: {summation_y_square}", f"xy: {summation_xy}"]
+    return [f"x: {summation_x}", f"x_square: {summation_x_square}", f"y: {summation_y}", f"y_square: {summation_y_square}", f"xy: {summation_xy}"]

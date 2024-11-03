@@ -4,7 +4,7 @@ import math, itertools
 def population_mean(arr_x_vals):
     """
     :param arr_x_vals: is an array contain x variables
-    :return: the population means
+    :return: the population mean
     """
     summation_x = 0
     N = len(arr_x_vals)
