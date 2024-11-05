@@ -21,7 +21,7 @@ def pearson_correlation(x, y, n):
         summation_y_square += e ** 2
         summation_xy += i*e
 
-    nemirator = (n * summation_xy)-(summation_x * summation_y)
-    denominrator = ((n * summation_x_square) - summation_x ** 2) * ((n * summation_y_square) - summation_y ** 2)
-    r = nemirator / math.sqrt(denominrator)
+    numerator = (n * summation_xy)-(summation_x * summation_y)
+    denominator = ((n * summation_x_square) - summation_x ** 2) * ((n * summation_y_square) - summation_y ** 2)
+    r = numerator / math.sqrt(denominator)
     return r
